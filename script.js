@@ -1,4 +1,5 @@
 
+//working with paragraphs
 //storing the html buttons in a javascript variable
 let add = document.getElementById("add");
 let remove = document.getElementById("remove");
@@ -21,3 +22,20 @@ remove.addEventListener("click", function(){
     let removeParagraph = document.body.removeChild(paragraphElement);
     return removeParagraph;
 })
+
+
+
+//working with the list items
+//removing items from a list
+//storing the items in a variable
+let items = document.querySelectorAll(".item1");
+let deleteButtons = document.getElementsByClassName("delete-button");
+
+    //the remove function
+    for (let p = 0; p<deleteButtons.length; p++){
+        let button = deleteButtons[p];
+        button.addEventListener("click", function(event){
+            let buttonClicked = event.target;
+            buttonClicked.parentElement.parentElement.parentElement.remove();
+        })
+    }
