@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Document Object Model</title>
+</head>
+<body>
+
+    <section id="main">
+        
+        <h1 class="heading">Learning the DOM</h1>
+
+        <p class="paragraphs">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat voluptas sequi numquam! Architecto similique saepe atque earum fuga veniam autem aliquam quaerat quod ullam, facilis ex. Iste alias tempora fugiat?
+            Corrupti commodi quasi quo cum earum culpa odit, possimus recusandae nam, sint itaque aperiam magni adipisci sapiente officia eveniet excepturi veniam repudiandae quam. Recusandae quidem doloremque ullam quisquam voluptatem soluta!
+            Aperiam dicta a vel suscipit eaque inventore saepe quam, ea cum cumque, et commodi quasi natus. Voluptas excepturi nihil nesciunt hic, quidem recusandae. In non quisquam enim aut porro eligendi.
+        </p>
+
+        <!-- <button id="add" type="butotn">ADD NEW</button>
+
+        <button id="remove" type="button">REMOVE</button> -->
+
+        <div class="items">
+
+            <div id="item11" class="item1">
+                <div class="item">ITEM</div>
+                <div class="price">PRICE</div>
+                <div class="quantity">QUANTITY</div>
+                <div class="delete">DELETE</div>
+                <div class="total">TOTAL</div>
+            </div>
+
+            <div class="item1">
+                <div class="item">
+                    <img class="image" src="images/person1.jpg" alt="image">
+                    <div>
+                        <h1>Happy Yellow Denims</h1>
+                        <p>Light but comfy denim jacket</p>
+                        <p>Size <span>S</span></p>
+                        <p>Color <span>yellow</span></p>
+                    </div>
+                </div>
+
+                <div class="price">
+                    $65
+                </div>
+
+                <div class="quantity">
+                    <button class="minus">-</button>
+                    <p>1</p>
+                    <button class="plus">+</button>
+                </div>
+
+                <div class="delete">
+                    <img class="delete-button" src="images/delete.png" alt="delete">
+                </div>
+
+                <div class="total">
+                    $65.00
+                </div>
+
+            </div>
+
+            <div class="item1">
+                <div class="item">
+                    <img class="image" src="images/person1.jpg" alt="image">
+                    <div>
+                        <h1>Happy Yellow Denims</h1>
+                        <p>Light but comfy denim jacket</p>
+                        <p>Size <span>S</span></p>
+                        <p>Color <span>yellow</span></p>
+                    </div>
+                </div>
+
+                <div class="price">
+                    $65
+                </div>
+
+                <div class="quantity">
+                    <button class="minus">-</button>
+                    <p>1</p>
+                    <button class="plus">+</button>
+                </div>
+
+                <div class="delete">
+                    <img class="delete-button" src="images/delete.png" alt="delete">
+                </div>
+
+                <div class="total">
+                    $65.00
+                </div>
+
+            </div>
+
+            <div class="item1">
+                <div class="item">
+                    <img class="image" src="images/person1.jpg" alt="image">
+                    <div>
+                        <h1>Happy Yellow Denims</h1>
+                        <p>Light but comfy denim jacket</p>
+                        <p>Size <span>S</span></p>
+                        <p>Color <span>yellow</span></p>
+                    </div>
+                </div>
+
+                <div class="price">
+                    $65
+                </div>
+
+                <div class="quantity">
+                    <button class="minus">-</button>
+                    <p>1</p>
+                    <button class="plus">+</button>
+                </div>
+
+                <div class="delete">
+                    <img class="delete-button" src="images/delete.png" alt="delete">
+                </div>
+
+                <div class="total">
+                    $65.00
+                </div>
+
+            </div>
+
+            <div class="item1">
+                <div class="item">
+                    <img class="image" src="images/person1.jpg" alt="image">
+                    <div>
+                        <h1>Happy Yellow Denims</h1>
+                        <p>Light but comfy denim jacket</p>
+                        <p>Size <span>S</span></p>
+                        <p>Color <span>yellow</span></p>
+                    </div>
+                </div>
+
+                <div class="price">
+                    $65
+                </div>
+
+                <div class="quantity">
+                    <button class="minus">-</button>
+                    <p>1</p>
+                    <button class="plus">+</button>
+                </div>
+
+                <div class="delete">
+                    <img class="delete-button" src="images/delete.png" alt="delete">
+                </div>
+
+                <div class="total">
+                    $65.00
+                </div>
+
+            </div>
+
+            <div class="item1">
+                <div class="item">
+                    <img class="image" src="images/person1.jpg" alt="image">
+                    <div>
+                        <h1>Happy Yellow Denims</h1>
+                        <p>Light but comfy denim jacket</p>
+                        <p>Size <span>S</span></p>
+                        <p>Color <span>yellow</span></p>
+                    </div>
+                </div>
+
+                <div class="price">
+                    $65
+                </div>
+
+                <div class="quantity">
+                    <button class="minus">-</button>
+                    <p>1</p>
+                    <button class="plus">+</button>
+                </div>
+
+                <div class="delete">
+                    <img class="delete-button" src="images/delete.png" alt="delete">
+                </div>
+
+                <div class="total">
+                    $65.00
+                </div>
+
+            </div>
+
+            <div class="item1">
+                <div class="item">
+                    <img class="image" src="images/person1.jpg" alt="image">
+                    <div>
+                        <h1>Happy Yellow Denims</h1>
+                        <p>Light but comfy denim jacket</p>
+                        <p>Size <span>S</span></p>
+                        <p>Color <span>yellow</span></p>
+                    </div>
+                </div>
+
+                <div class="price">
+                    $65
+                </div>
+
+                <div class="quantity">
+                    <button class="minus">-</button>
+                    <p>1</p>
+                    <button class="plus">+</button>
+                </div>
+
+                <div class="delete">
+                    <img class="delete-button" src="images/delete.png" alt="delete">
+                </div>
+
+                <div class="total">
+                    $65.00
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+    <script src="script.js"></script>
+</body>
+</html>

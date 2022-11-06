@@ -1,0 +1,108 @@
+
+
+body{
+    margin: 20px;
+    padding: 20px;
+    font-family: "Poppins";
+    color: #272727;
+    background-color: #fafafa;
+    line-height: 30px;
+}
+
+.heading{
+    margin: 20px;
+    padding: 20px;
+    color: white;
+    background: linear-gradient(270deg,#b421fe9d 0%,#1FD1F9 100%);
+}
+
+.paragraphs{
+    font-size: smaller;
+    border: 1px solid #b421fe9d;
+    margin: 20px;
+    padding: 20px;
+}
+
+.item1{
+    line-height: 20px;
+    display: flex;
+    align-content: center;
+}
+
+#item11{
+    color: white;
+    margin-top: 20px;
+    background: linear-gradient(270deg,#b421fe9d 0%,#1FD1F9 100%);
+}
+
+#add,
+#remove{
+    padding: 15px;
+    cursor: pointer;
+    color: white;
+    border: none;
+    border-radius: 40px;
+    background: linear-gradient(360deg,#b421fe9d 0%,#1FD1F9 100%);
+}
+
+.item{
+    display: flex;
+    align-items: center;
+    flex: 2;
+    font-size: smaller;
+    border: 0.5px solid #b421fe38;
+    border-top: none;
+    padding: 14px;
+}
+
+.item p{
+    color: rgb(173, 171, 171);
+    font-size: smaller;
+}
+
+.price,
+.quantity,
+.delete{
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 0.5px solid #b421fe38;
+    border-left: none;
+    border-top: none;
+}
+
+.total{
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 0.5px solid #b421fe38;
+    border-top: none;
+    border-left: none;
+}
+
+
+.image{
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 10px;
+    margin-right: 20px;
+}
+
+.minus,
+.plus{
+    cursor: pointer;
+    border: none;
+    background: linear-gradient(270deg,#b421fe9d 0%,#1FD1F9 100%);
+    width: 30px;
+    height: 30px;
+    border-radius: 30px;
+    color: white;
+    margin: 10px;
+}
+
+.delete-button{
+    cursor: pointer;
+}
