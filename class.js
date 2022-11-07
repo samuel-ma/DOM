@@ -72,3 +72,17 @@ let baldEagle = new Eagle();
 let kingPenguin = new Penguin();
 baldEagle.useWings();
 kingPenguin.useWings();
+
+
+//example of a callback function 
+function myDisplayer(some) {
+    console.log(some);
+  }
+  
+  function addTwoNums(num1, num2) {
+    let sum = num1 + num2;
+    return sum;
+  }
+  
+  let result = addTwoNums(2, 6);
+  myDisplayer(result);
