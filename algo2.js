@@ -1,6 +1,6 @@
 
 
-//Write an algorithm that reads a sentence which ends with a point,
+// Write an algorithm that reads a sentence which ends with a point,
 // character by character and determine:
 
 // 1 . The length of the sentence (number of characters)
@@ -14,20 +14,29 @@
 // ---> The last character is the point
 // ---> Use three variables as counters 
 
-let sentence = "Hey there, my name is so and so from Los Santos.";
-let vowels = "aeiou";
-let sum = 0;
+let myWords = "Hey there, am a fullstack dev in the making, what is your story though"
 
-//length of the sentence
-console.log(sentence.length);
+function myFun(){
+ 
+    let newWords1 = myWords.split(" ").join("")
+    let newWords2 = newWords1.split("")
+    let newWords3 = newWords2.length
 
-//number of words in the sentence
-console.log(sentence.split(" "));
+    let y = myWords.split(" ")
+    let x = y.length
+ 
+    let vowels = "aeiouAEIOU"
+    let vowelsA = vowels.split(" ").join("")
+    let vowelsB = vowelsA.split("")
+    let count = 0
 
-//get rid of the spaces in that sentence
-console.log(sentence.split(" ").join());
-
-//number of vowels in the sentence
-for(let i = 0; i < sentence.length; i++){
-    console.log(sentence[i]);
+    for (let i = 0; i < newWords3; i++) {
+        
+        if (vowelsB.indexOf(newWords2[i]) !== -1) {
+                count += 1;
+            }
+        }
+    return console.log(`${x} Words, ${newWords3} letters including ${count} vowels`)
 }
+
+myFun()
