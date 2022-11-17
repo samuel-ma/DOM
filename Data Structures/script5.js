@@ -29,8 +29,8 @@ function averageScore(params){
         average = (sum / params.length);
         finalAverage = Math.ceil(average);
     }
-    console.log(sum);
-    console.log(finalAverage);
+    // console.log(sum);
+    // console.log(finalAverage);
     return finalAverage;
 }
 
