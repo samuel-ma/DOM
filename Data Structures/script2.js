@@ -1,4 +1,4 @@
-
+"use strict";
 
 //PROBLEM 1
 //SECOND SOLUTION USING HASH TABLES(OJECTS)
@@ -19,11 +19,9 @@ let newArr2 = Object.entries(obj2);
 // console.log(newArr1);
 // console.log(newArr2);
 
-
 // store the index of the array values in a variable
 let arr1 = newArr1[0][1];
 let arr2 = newArr2[0][1];
-
 
 
 function compareArrays(arrr1, arrr2){
