@@ -1,7 +1,7 @@
 "use strict";
 
 //PROBLEM 1
-//SECOND SOLUTION USING HASH TABLES(OJECTS)
+//SECOND SOLUTION USING (OBJECTS)
 
 const obj1 = {
     arr1: [3,1,7,9],

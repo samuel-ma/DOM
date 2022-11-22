@@ -1,6 +1,6 @@
 "use strict";
 
-//SOLUTION USING HASH TABLES
+//SOLUTION USING (OBJECTS)2
 const obj1 = {
     arr1: [3,1,7,9]
   };
