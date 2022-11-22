@@ -62,52 +62,52 @@
 
 
 
-//PROBLEM 1
-//SECOND SOLUTION USING (OBJECTS)
-console.log(`SOLUTION USING OBJECTS`);
+    //PROBLEM 1
+    //SECOND SOLUTION USING (OBJECTS)
+    console.log(`SOLUTION USING OBJECTS`);
 
-const obj1 = {
-    arr1: [3,1,7,9]
-  };
+    const obj1 = {
+        arr1: [3,1,7,9]
+      };
 
-const obj2 = {
-    arr2: [2,4,1,9,3]
-  };
+    const obj2 = {
+        arr2: [2,4,1,9,3]
+      };
 
-let value1 = Object.values(obj1);
-let finalV1 = value1[0];
-// console.log(finalV1);
+    let value1 = Object.values(obj1);
+    let finalV1 = value1[0];
+    // console.log(finalV1);
 
-let value2 = Object.values(obj2);
-let finalV2 = value2[0];
-// console.log(finalV2);
+    let value2 = Object.values(obj2);
+    let finalV2 = value2[0];
+    // console.log(finalV2);
 
 
 
-// find the distinct values
-function distinctElem(arrr1, arrr2){
-    let finalArr = arrr2.filter(function(obj){
-    return arrr1.indexOf(obj) === -1;
-})
-    console.log("The distinct elements are", finalArr);
-    
-    //sum up the entire array
-    let sum = 0;
-    for(let i=0; i<finalArr.length; i++){
-        sum += finalArr[i];
+    // find the distinct values
+    function distinctElem(arrr1, arrr2){
+        let finalArr = arrr2.filter(function(obj){
+        return arrr1.indexOf(obj) === -1;
+    })
+        console.log("The distinct elements are", finalArr);
+
+        //sum up the entire array
+        let sum = 0;
+        for(let i=0; i<finalArr.length; i++){
+            sum += finalArr[i];
+        }
+
+        let finalSum = sum;
+        // console.log(finalSum);
+        return finalSum;
     }
-    
-    let finalSum = sum;
-    // console.log(finalSum);
-    return finalSum;
-}
 
-let finalS1 = distinctElem(finalV1, finalV2);
-let finalS2 = distinctElem(finalV2, finalV1);
+    let finalS1 = distinctElem(finalV1, finalV2);
+    let finalS2 = distinctElem(finalV2, finalV1);
 
-//calculate the finalSum
-let finalAm = finalS1 + finalS2;
-console.log("The final sum is", finalAm);
+    //calculate the finalSum
+    let finalAm = finalS1 + finalS2;
+    console.log("The final sum is", finalAm);
 
 
     
