@@ -23,6 +23,7 @@ console.log(randomNumber());
 
 //add a click event on the check button
 check.addEventListener("click", function(){
+    myValue = Number(input.value);
     
     //update the score number 
     let myScore = Number(score.innerHTML);
@@ -41,6 +42,7 @@ check.addEventListener("click", function(){
     if(myValue === randomNumber()){
         guess.innerHTML = "Correct Answer";
         highScore.innerHTML = finalScore;
+        number.innerHTML = "🌟CONGRATULAIONS🌟"
     } else if(myValue < randomNumber()){
         guess.innerHTML = "Guess a little higher...";
     }  else if(myValue > randomNumber()){
@@ -57,8 +59,16 @@ check.addEventListener("click", function(){
         one.innerHTML = 0;
         guess.innerHTML = "Guess a number btn 1 and 20";
     }
+})
 
 
+//add an event to the again button
+again.addEventListener("click", function(){
+    guess.innerHTML = "Start guessing...."
+    score.innerHTML = 20;
+    highScore.innerHTML = 0;
+    one.innerHTML = "?";
+    number.innerHTML = "Guess My Number!"
 })
 
 
