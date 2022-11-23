@@ -76,7 +76,13 @@ check.addEventListener("click", function(){
     let myScore = Number(score.innerHTML);
     console.log(myScore);
     let finalScore = myScore-1;
-    score.innerHTML = finalScore;
+
+    if(score.innerHTML <= 0){
+        guess.innerHTML = "You ran out of tries...";
+        score.innerHTML = 0;
+    } else {
+        score.innerHTML = finalScore;
+    }
 
 
     //compare the random number to the input number
