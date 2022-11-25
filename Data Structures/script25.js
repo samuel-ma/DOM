@@ -4,7 +4,7 @@
 var array1=[3, 1, 7, 9]
 var array2=[2, 4, 1, 9, 3]
 
-
+console.log(`SOLUTION BY MARWAN ABDOU`);
 
 let sum1 = 0 
 array1.forEach(element => {
@@ -88,7 +88,7 @@ console.log(`The joined array is [ ${joined} ]`);
 joined.forEach(element =>{
   count[element] = (count[element] || 0) + 1
 })
-console.log(count);
+// console.log(count);
 
 let key;
 let value;
@@ -103,4 +103,53 @@ for(key in (count)){
   
   };
 }
-console.log(sum);
+
+if(sum === 0){
+    console.log(`The sum is ${sum} and the two vectors are orthogonal`);
+} else {
+    console.log(`The sum is ${sum} and the two vectors are not orthogonal`);
+}
+
+console.log("           ||                    ");
+console.log("           ||                    ");
+console.log("           ||                    ");
+console.log("           ||                    ");
+console.log("           ||                    ");
+console.log("           ||                    ");
+console.log("           ||                    ");
+console.log("           ||                    ");
+console.log("           ||                    ");
+console.log("           ||                    ");
+console.log("           ||                    ");
+console.log("           ||                    ");
+console.log("           ||                    ");
+
+
+
+
+
+
+
+console.log(`SOLUTION BY HAJAR BERCHIL`);
+
+//HAJARBER SOLUTION
+let Vect = [[3, 1, 4],[7, 0, 1],[0, 0, 0],[3, 4, 6]]
+
+// Function that returns "dot product" of two vectors:
+function dot_product(v1, v2){
+    let product = 0;
+
+    for(let i = 0; i < v1.length; i++){
+        product += v1[i] * v2[i]
+      }
+    return product
+}
+
+// Orthogonal vectors :
+  for(let i = 0; i < Vect.length; i++){
+    for(let j = i + 1; j < Vect.length; j++){
+      if(dot_product(Vect[i], Vect[j]) === 0){
+          console.log(`${Vect[i]} and ${Vect[j]} are orthogonal `)
+      }
+    }
+  }
