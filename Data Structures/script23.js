@@ -11,8 +11,8 @@
     a)  If the dot product of two vectors is zero, then the two vectors are orthogonal.
     
     The given vectors are:
-    v1 = [-5,5];
-    v2 = [1,1];
+    v1 = [-5,5,7,4];
+    v2 = [1,1,0,0];
 
     v1 . v2 = -5 * 1 + 5 * 1
     v1 . v2 = -5 + 5
