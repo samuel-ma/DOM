@@ -32,7 +32,6 @@
 
 
 //SOLUTION
-//How to iterate multiple arrays with nested for loops
 
 //first pair of arrays
 let v1 = [-5,5,7,4];
