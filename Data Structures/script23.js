@@ -42,7 +42,7 @@ let v3 = [2,6];
 let v4 = [4,1];
 
 //function to multiple and sum two arrays
-function accessElem(params, params2){
+function dot_product(params, params2){
     let result = 0;
 
     for (var i=0; i < params.length; i++) {
@@ -53,7 +53,7 @@ function accessElem(params, params2){
 
 //function to console log whether the arrays are orthogonal or not
 function isOrthogonal(params1, params2){
-    let params = accessElem(params1, params2);
+    let params = dot_product(params1, params2);
     // console.log(params);
 
     if(params === 0){
