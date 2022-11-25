@@ -33,3 +33,4 @@ while (i<10 && j<5){
 console.log(i);
 console.log(j);
 
+
