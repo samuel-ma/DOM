@@ -8,10 +8,9 @@
     a) Orthogonal
     b) Not orthogonal.
 
-    The given vectors are:
-
     a)  If the dot product of two vectors is zero, then the two vectors are orthogonal.
-
+    
+    The given vectors are:
     v1 = [-5,5];
     v2 = [1,1];
 
@@ -21,7 +20,6 @@
     These two vectors are orthogonal.
 
     b)  The second pair of vectors are:
-
     v1 = [2, 6];
     v2 = [4, 1];
 
