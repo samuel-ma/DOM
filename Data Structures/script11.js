@@ -38,3 +38,4 @@ else if(bill > 300){
 const private = 'sam';
 console.log(private)
 
+
