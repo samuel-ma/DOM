@@ -250,5 +250,3 @@ let S2 = compareArr(V2, V1);
 let Am = S1 + S2;
 console.log("The sum of common elements is", Am);
 
-
-
