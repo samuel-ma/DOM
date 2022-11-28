@@ -62,3 +62,4 @@ console.log(newAge);
 newAge ? console.log("Am old enough to drink wine now") : console.log("Am still underage🐓")
 
 console.log(`${newAge ? "I like to drink" : "Am not allowed to drink"}`);
+
