@@ -18,10 +18,3 @@ function arrSort(params) {
     return params
   }
   console.log(arrSort(arr));
-
-
-
-
-
-
-
