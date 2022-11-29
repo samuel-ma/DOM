@@ -48,4 +48,3 @@ letterFinder("cat", "c");
 
 
 
-
