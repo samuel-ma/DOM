@@ -39,3 +39,4 @@ let deleteButtons = document.getElementsByClassName("delete-button");
             buttonClicked.parentElement.parentElement.parentElement.remove();
         })
     }
+
