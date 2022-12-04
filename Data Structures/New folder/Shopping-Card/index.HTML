@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Shopping Cart</title>
+    <meta charset="UTF-8" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
+    <link rel="stylesheet" href="style.CSS" />
+</head>
+
+<body>
+    <header>
+        <nav class="navbar navbar-dark bg-dark">
+            <div class="container-fluid">
+                <a class="navbar-brand">SHOP</a>
+                <form class="d-flex">
+                    <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search" />
+                    <button class="btn btn-outline-success" type="submit">
+              Search
+            </button>
+                </form>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <div class="items">
+            <div class="Item">
+                <button class="like"><i class="fa fa-heart fa-2x"></i></button>
+                <img src="iphone-12-pro-max.jpg" alt="iphone 12" />
+                <p class="description">
+                    Apple iphone 12 pro 128Go <br /> Pacific Blue
+                </p>
+                <div class="quantity">
+                    <button class="minus-btn">
+              <img src="minus-symbol-button.svg" alt="minus sign" />
+            </button>
+                    <input type="text" class="Quant" value=" 1" id="q1" />
+                    <button class="plus-btn">
+              <img src="plus-symbol-button.svg" alt="plus sign" />
+            </button>
+                </div>
+                <p class="price" id="p1">1379.00</p>
+                <button class="delete">X</button>
+            </div>
+            <div class="Item">
+                <button class="like"><i class="fa fa-heart fa-2x"></i></button>
+                <img src="running shoes.jpg" alt="adidas running shoes" />
+                <p class="description">
+                    Adidas U_Path X Shoes <br /> Adidas women's running shoes
+                </p>
+                <div class="quantity">
+                    <button class="minus-btn">
+              <img src="minus-symbol-button.svg" alt="minus sign" />
+            </button>
+                    <input type="text" class="Quant" value=" 1" id="q2" />
+                    <button class="plus-btn">
+              <img src="plus-symbol-button.svg" alt="plus sign" />
+            </button>
+                </div>
+                <p class="price" id="p2">176.00</p>
+                <button class="delete">X</button>
+            </div>
+            <div class="Item">
+                <button class="like"><i class="fa fa-heart fa-2x"></i></button>
+                <img src="apple-watch.jpg" alt="i-watch" />
+                <p class="description">Apple watch Series 3</p>
+                <div class="quantity">
+                    <button class="minus-btn">
+              <img src="minus-symbol-button.svg" alt="minus sign" />
+            </button>
+                    <input type="text" class="Quant" value=" 1" id="q3" />
+                    <button class="plus-btn">
+              <img src="plus-symbol-button.svg" alt="plus sign" />
+            </button>
+                </div>
+                <p class="price" id="p3">249.00</p>
+                <button class="delete">X</button>
+            </div>
+        </div>
+        <div id="total-price">
+            <p>Total Price:</p>
+            <input type="text" id="finalPrice" value="1804" />
+        </div>
+    </main>
+    <footer>© 2021.GOMYCODE.</footer>
+    <script src="/script.js"></script>
+</body>
+
+</html>

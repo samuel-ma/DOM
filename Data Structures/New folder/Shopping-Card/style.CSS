@@ -1,0 +1,71 @@
+/* pink: rgb(219, 155, 165) 
+   red: rgb(187, 53, 53) */
+
+* {
+    margin:0px;
+    padding:0px;
+    box-sizing: border-box;
+}
+body {
+    background-image: url("https://www.automoblog.net/wp-content/uploads/2017/11/christmas-online-shopping-background-P8YWKZB.jpg");
+    font-family:cursive;
+    font-size: medium;
+}
+header {
+    position: sticky;
+    top: 0;
+}
+main {
+    background-color: #e7ddca;
+    margin: 150px;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 8px 10px #494545;
+}
+.Item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid grey;
+    margin: 20px;
+    padding: 20px;
+}
+.Item > img {
+    width: 220px;
+    height: 190px;
+}
+.i {
+    color: rgb(219, 155, 165);
+}
+button {
+    border: none;
+    background-color: #e7ddca;
+    outline: none;
+}
+button > img {
+    width: 10px;
+    height: 10px;
+}
+.quantity > input {
+    width:20px;
+    background-color: #e7ddca;
+    border: none; 
+}
+#total-price {
+    display: flex;
+    justify-content: flex-end;
+    align-items: baseline;
+    font-size: large;
+    font-weight: bold;
+}
+#total-price > input {
+    border: none;
+    background-color:#e7ddca;
+    font-family: cursive;
+    font-size: large;
+    font-weight: bold;
+    margin-left: 10px;
+}
+footer {
+    text-align: center;
+}

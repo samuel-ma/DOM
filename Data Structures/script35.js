@@ -67,7 +67,7 @@ console.log(`--------------------------------------------`)
 //solution using ES6 forEach
 let finalArr = [];
 
-const filterProducts = () => {
+const filterProducts = (arr) => {
 
     arr.filter(function(product){
         if(product.price < 10){
@@ -76,7 +76,7 @@ const filterProducts = () => {
         return finalArr;
     })
 }
-console.log(finalArr);
+console.log(filterProducts(arr));
 console.log(`The finalArr: ${finalArr}`);
 
 
