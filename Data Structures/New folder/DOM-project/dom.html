@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DOM project</title>
+    <link rel = "stylesheet" href="dom.css">
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet"/>
+</head>
+
+<body>
+
+    <header>DOM Store Checkout</header>
+
+    <div class="pre-total">
+        <span id="pre1">0</span>
+        <span id="pre2">0</span>
+        <span id="pre3">0</span>
+    </div>
+    
+   <div id="store-items">
+
+        <div class="item-1">
+            <h4>T-shirt 1</h4>
+            <h4 class="price">$20</h4>
+            <img class="shirtpic" src="https://zigzag-concept.lu//tshirtecommerce//uploaded/dg-designer-caaeb105157461454776366062110268720.jpg" alt="tshirt 1" style="height:200px">  
+            
+        <div class="container">
+            <button onclick="totalClick(-1)">-</button>
+            <span id="totalClicks">0</span>
+            <button onclick="totalClick(1)">+</button>
+            <button onclick="totalClick(0)">X</button>
+            <div class="heart" id="heart">
+                <i class="fa fa-heart-o"></i>
+            </div>
+        </div>
+              
+        </div>
+
+        <div class="item-2">
+            <h4 class="heading">T-shirt 2</h4>
+            <h4 class="price">$20</h4>
+            <img class="shirtpic" src="https://pingmediastage.azureedge.net/mediastorage/mediastorage/ping-na/medialibrary/ecommerce/2020/holiday/pp58_tee-royal_mouseover_500x500.jpg" alt="tshirt 1" style="height:200px">  
+        
+            <div class="container">
+                <button onclick="totalClickk(-1)">-</button>
+                <span id="totalClickks">0</span>
+                <button onclick="totalClickk(1)">+</button>
+                <button onclick="totalClickk(0)">X</button>
+                <div class="heart" id="heart1">
+                    <i class="fa fa-heart-o"></i>
+                </div>
+    </div>
+        </div>
+
+        <div class="item-3">
+            
+            <h4>T-shirt 3</h4>
+            <h4 class="price">$20</h4>
+            <img class="shirtpic" src="https://m.media-amazon.com/images/I/51ljvxmNQiL._AC_UY1000_.jpg" alt="tshirt 1" style="height:200px">  
+            
+        <div class="container">
+            <button onclick="totalClickkk(-1)">-</button>
+            <span id="totalClickkks">0</span>
+            <button onclick="totalClickkk(1)">+</button>
+            <button onclick="totalClickkk(0)">X</button>
+            <div class="heart" id="heart2">
+                <i class="fa fa-heart-o"></i>
+            </div>
+        </div>
+    
+        </div>
+
+    </div>
+
+    <div class="checkout">
+        <span>Checkout Total:</span>
+        &#36;<span id="checkoutt">0</span>
+    </div>
+
+   <script src="dom.js"></script>
+</body>
+
+</html>

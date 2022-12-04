@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DOM project</title>
+    <link rel = "stylesheet" href="dom.css">
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet"/>
+</head>
+<body>
+    <header>DOM Store Checkout</header>
+    <div class="checkout">
+        <span>Checkout Total:</span>
+        &#36;<span id="checkoutt">0</span>
+    </div>
+
+    <div class="pre-total">
+        <span id="pre1">0</span>
+        <span id="pre2">0</span>
+        <span id="pre3">0</span>
+    </div>
+    
+   <div id="store-items">
+    <div class="item-1">
+        <h4>T-shirt 1</h4>
+        <h4 class="price">$20</h4>
+        <img src="https://www.pennlive.com/resizer/e7o66Pu6YAzxTOA7AARGt_L4hic=/1280x0/smart/cloudfront-us-east-1.images.arcpublishing.com/advancelocal/XBUH6UFAPVDTLCPAG6HBZUFQE4.jpg" alt="tshirt 1" style="height:150px">  
+        
+        <div class="container">
+	<button onclick="totalClick(-1)">-</button>
+	<span id="totalClicks">0</span>
+	<button onclick="totalClick(1)">+</button>
+    <button onclick="totalClick(0)">X</button>
+    
+
+        
+           
+            <div id="heart">
+                <i class="fa fa-heart-o"></i>
+            </div>
+            
+        
+        
+</div>
+</div>
+    <div class="item 2">
+        <h4 class="heading">T-shirt 2</h4>
+        <h4 class="price">$20</h4>
+        <img src="https://media.istockphoto.com/photos/blue-tshirt-isolated-on-white-background-picture-id1311574382?k=20&m=1311574382&s=170667a&w=0&h=gtNFyPyNrJBUnqfxDaTdeA8edsvs0jCyWXctezXI7GU=" alt="tshirt 1" style="height:200px">  
+       
+        <div class="container">
+            <button onclick="totalClickk(-1)">-</button>
+            <span id="totalClickks">0</span>
+            <button onclick="totalClickk(1)">+</button>
+            <button onclick="totalClickk(0)">X</button>
+            <div id="heart1">
+                <i class="fa fa-heart-o"></i>
+            </div>
+</div>
+    </div>
+    <div class="item 3">
+        <h4>T-shirt 3</h4>
+        <h4 class="price">$20</h4>
+        <img src="https://cdn.shopify.com/s/files/1/0259/5448/4284/products/SKIMS-LOUNGE-AP-TSH-0462-ONX-FL.jpg?v=1644349793&width=1410&height=1410" alt="tshirt 1" style="height:200px">  
+        
+
+<div class="container">
+	<button onclick="totalClickkk(-1)">-</button>
+	<span id="totalClickkks">0</span>
+	<button onclick="totalClickkk(1)">+</button>
+    <button onclick="totalClickkk(0)">X</button>
+    
+    <div id="heart2">
+        <i class="fa fa-heart-o"></i>
+    </div>
+   </div>
+   <script src="dom.js"></script>
+
+</body>
+</html>

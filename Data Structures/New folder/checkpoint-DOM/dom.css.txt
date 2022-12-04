@@ -1,0 +1,66 @@
+header{
+    font-size: 50px;
+    color: #397754;
+    text-align: center;
+    margin: auto;
+  width: 50%;
+  border: 3px solid green;
+  padding: 10px;
+    
+}
+
+#store-items{
+  margin-top: 100px;
+  margin-bottom: 100px;
+  
+   
+}
+
+.checkout{
+    
+    float: right;
+    margin: 110px;
+    text-transform: uppercase;
+    background-image: linear-gradient(
+      -225deg,
+      #f0a3bc 0%,
+      #70be51 29%,
+      #eb6b40 67%,
+      #9b45b2 100%
+    );
+   
+    background-size: auto auto;
+    background-clip: border-box;
+    background-size: 200% auto;
+    color: #fff;
+    background-clip: text;
+    text-fill-color: transparent;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    animation: textclip 2s linear infinite;
+    display: inline-block;
+        font-size: 20px;
+  }
+  
+  @keyframes textclip {
+    to {
+      background-position: 200% center;
+    }
+  }
+
+#heart, #heart1, #heart2{
+  margin-top: 20px;
+  size: 20px;
+}
+#pre1, #pre2, #pre3{
+  display: none;
+}
+
+
+
+.fa-car{
+  padding-top: 15px;
+}
+
+
+
