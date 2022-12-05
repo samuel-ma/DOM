@@ -35,3 +35,4 @@ let purchase2 = {
 purchase2.totalPrice();
 
 
+
