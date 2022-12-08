@@ -88,4 +88,3 @@ function myDisplayer(some) {
   myDisplayer(result);
 
 
-
