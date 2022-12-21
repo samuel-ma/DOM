@@ -10,11 +10,25 @@
 
 let l = [1,'a','b',0,15];
 
-const newArr = l.filter(item => {
-    if (item == 0){
-        return item;
-    }
-});
+const newArr = l.filter((item) => Number.isInteger(item));
+
+/*
+    How I used typeof
+    const newArr = l.filter((item) => {
+        if(typeof item === Number){
+            return item
+        }
+    });
+
+    console.log(newArr)
+*/
+
+//using typeof
+function filter_list(l) {
+    return l.filter((item) => {return typeof item === 'number'})
+  }
+
+console.log(filter_list(l));
 
 console.log(newArr)
 
