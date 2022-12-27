@@ -36,6 +36,3 @@ console.log(j);
 
 
 
-
-
-
