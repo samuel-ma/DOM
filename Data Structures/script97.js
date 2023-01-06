@@ -20,6 +20,7 @@ console.log(`The firstArr => ${splitStr}`);
 for(let i=0; i<splitStr.length; i++){
     splitStr2.push(splitStr[i].split(""));
 }
+console.log(`The firstArr => ${splitStr.join("")}`) ;
 console.log(splitStr2);
 
 for(let j=0; j<splitStr2.length; j++){
@@ -28,4 +29,4 @@ for(let j=0; j<splitStr2.length; j++){
     }
 }
 
-console.log(splitStr);
+console.log(splitStr2.join(""));
