@@ -84,16 +84,40 @@ const game = {
 1. Loop thru the game.scored array
 */
 
-let score = 0;
-
-for (const players of game.scored){
-    console.log(`${players} scored ${players.length}`)
-}
+const mapped = game.scored.forEach((item, index) => `\nGoal ${index + 1} : ${item}`)
+console.log(`${mapped}`)
 console.log(`----------------------------------------`)
 
 
 /*
 2. Use a loop to calculate the average odd and log it
 */
+
+const average = (3*1.33) + (6.5)
+
+// 3. Print the 3 odds to the console
+
+const keys = Object.keys(game.odds);
+console.log(keys)
+
+const values = Object.values(game.odds);
+console.log(values);
+
+// for(const {keys,values} of game.odds){
+//     console.log(`Odds of ${keys} : ${values}`)
+// }
+
+let final;
+
+for(let i=0; i<keys.length; i++){
+    for(let j=0; j<values.length; j++){
+        final = `${keys[i]} : ${values[j]}`;
+    }
+}
+
+console.log(final)
+
+
+
 
 
