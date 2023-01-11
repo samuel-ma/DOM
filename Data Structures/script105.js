@@ -68,7 +68,7 @@ const obj = Object.keys(scorers);
 console.log(obj);
 
 for(let i=0; i<game.scored.length; i++){
-
+    
 }
 
 
