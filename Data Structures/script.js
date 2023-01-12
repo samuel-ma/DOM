@@ -200,4 +200,3 @@ console.log("The sum of common elements is", Am);
 
 
 
-
