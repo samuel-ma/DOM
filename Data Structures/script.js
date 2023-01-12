@@ -199,4 +199,3 @@ let Am = S1 + S2;
 console.log("The sum of common elements is", Am);
 
 
-
